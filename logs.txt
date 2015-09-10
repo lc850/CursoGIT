@@ -1,0 +1,29 @@
+commit 898bb4b8a100c4a916e29fa80a13fcd3cac3d415
+Author: Luis Santillan <santillan.itc@gmail.com>
+Date:   Wed Sep 9 16:42:52 2015 -0600
+
+    Pie de pagina agregado
+
+commit a2d399cb8d4e77c8eee7903530b9b07762a63b18
+Author: Luis Santillan <santillan.itc@gmail.com>
+Date:   Wed Sep 9 16:37:52 2015 -0600
+
+    Login agregado
+
+commit 8655ba0761e155cb855c4536e367670865eb4c0e
+Author: Luis Santillan <santillan.itc@gmail.com>
+Date:   Wed Sep 9 16:28:48 2015 -0600
+
+    Logo agregado
+
+commit 8fd3e6756c07fec6e3df6113b3361176f1358a65
+Author: Luis Santillan <santillan.itc@gmail.com>
+Date:   Tue Sep 8 16:53:39 2015 -0600
+
+    Titulo agregado itc
+
+commit e0cad6fd1b217cdd8cdf5ee77f99fe4342bf5203
+Author: Luis Santillan <santillan.itc@gmail.com>
+Date:   Tue Sep 8 16:38:28 2015 -0600
+
+    Proyecto en blanco

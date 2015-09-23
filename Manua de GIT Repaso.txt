@@ -1,0 +1,90 @@
+REPASO DE COMADOS DE GIT:
+¿Cómo hacer un commit local?
+git add -A
+git commit -m "Mensaje"
+
+¿Cómmit al servidor?
+git add -A
+git commit -m "Mensaje"
+git push origin master
+
+¿Qué hacer si no deja actualizar el repositorio?
+-Hubo cambios
+	Antes hacer commit local
+	git fetch (Se descargan los cambios del repo)
+	git merge origin/master (Fusiona cambios del repo con los locales)
+	subimos de nuevo git push origin master
+
+¿Cómo actualizamos repositorio local sin haber hecho cambios?
+-git pull origin master
+
+¿Cómo clonar un repositorio?
+Crear repositorio antes en github.com (Inicializado)
+- git clone URL
+
+¿Cómo ligar un repositorio local a uno de github?
+Antes tienes que ser creado en github.com (Sin inicializar)
+- git add remote origin URL
+
+¿Cómo revisar que ha habido cambios locales?
+git status
+
+¿Cómo mostrar los commits que hemos realizado?
+git log
+git log> logs.txt (Exportarlos a txt para poder copiarlos)
+
+¿Cómo movernos a un commit específico?
+git checkout ID_DE_COMMIT
+
+¿Cómo inicializar un proyecto en git?
+git init (Para repos locales, no es necesario si clonamos)
+
+¿Cómo regresar al último commit?
+git checkout master
+
+¿Cómo crear una rama?
+git branch NOMBRE_RAMA
+git branch (Listar todas las ramas que existen)
+
+¿Cómo cambiarnos de rama? /c/repositorios/ejemplo (master)
+git checkout NOMBRE_RAMA
+/c/repositorios/ejemplo (NOMBRE_RAMA)
+
+¿Subir cambios a una rama específica?
+git add -A
+git commit -m "Mensaje"
+git push origin RAMA
+
+¿Cómo mover todos los cambios de las ramas a master?
+git checkout master
+git merge RAMA1
+git merge RAMA2
+
+¿Qué pasa si al hacer merge hay conflictos?
+Borrar los heads y volver a hacer commit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
